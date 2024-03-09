@@ -16,10 +16,10 @@ const library = [
   },
 ];
 
-const numberOfBooksRead = (book) => {
+const numberOfBooksRead = () => {
   // write your code here
 	let count = 0;
-	if(books.reareadingStatus){
+	if(library.reareadingStatus){
 		count++
 	}
 	return count;
